@@ -10,7 +10,9 @@ services:
     volumes:
       - ./mosquitto:/etc/mosquitto
       - ./app:/app
+      - ./api:/api
     ports:
+      - "8000:8000"
       - "3000:3000"
       - "1001:1883"
       - "9002:9001"
