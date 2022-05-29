@@ -14,5 +14,5 @@ services:
       - "3000:3000"
       - "1001:1883"
       - "9002:9001"
-    # working_dir: /app
+    working_dir: /app
 

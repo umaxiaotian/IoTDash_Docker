@@ -9,7 +9,3 @@ RUN dnf -y install epel-release
 RUN dnf makecache --refresh
 RUN dnf -y install mosquitto
 RUN systemctl enable mosquitto
-WORKDIR /etc/mosquitto
-
-WORKDIR /app
-EXPOSE 3000
