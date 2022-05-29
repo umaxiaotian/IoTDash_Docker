@@ -1,0 +1,5 @@
+パスワードを更新させるコマンド
+ps -aux | grep mosquitto | grep -v grep | awk '{print $2}'
+取得したpidをkill -HUP {PID}でコンフィグリロード
+
+
